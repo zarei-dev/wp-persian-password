@@ -4,20 +4,18 @@
 
 /**
  * @package   Persian Password
- * @author    mohammad.zarei1380@gmail.com <{{author_email}}>
+ * @author    Mohammad Zarei <mohammad.zarei1380@gmail.com>
  * @license   GPL-3.0+
- * @link      {{author_link}}
+ * @link      https://zarei.dev
  *
  * Plugin Name:     Persian Password
  * Plugin URI:      https://zarei.dev
  * Description:     Accept Password with persian numbers in your WordPress Login form.
- * Version:         0.0.1
- * Author:          mohammad.zarei1380@gmail.com
+ * Version:         1.0.0
+ * Author:          Mohammad Zarei
  * Author URI:      https://zarei.dev
- * Text Domain:     persian-password
  * License:         GPL-3.0+
  * License URI:     http://www.gnu.org/licenses/gpl-3.0.txt
- * Domain Path:     /languages
  * Requires PHP:    5.6
  */
 
@@ -36,7 +34,6 @@ function wp_authenticate_persian_password( $user, $email_or_username, $password 
     if ( $user instanceof WP_Error && $user->get_error_code() === 'incorrect_password' ) {
         // If the error code is incorrect_password, we know the password is wrong.
 
-        // if email_or_username is email, then it's email address
         if ( is_email( $email_or_username ) ) {
             $user = get_user_by( 'email', $email_or_username );
             if ( ! $user ) {

@@ -9,7 +9,6 @@
  * @link      https://zarei.dev
  *
  * Plugin Name:     Persian Password
- * Plugin URI:      https://zarei.dev
  * Description:     Accept Password with persian numbers in your WordPress Login form.
  * Version:         1.0.0
  * Author:          Mohammad Zarei

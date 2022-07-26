@@ -1,8 +1,8 @@
 === Persian Password ===
 Contributors: zareidev
-Tags: Persian, arabic, login, register, password, farsi
+Tags: Persian, login, register, password, farsi
 Requires at least: 5.6
-Tested up to: 6.01
+Tested up to: 6.0.1
 Requires PHP: 5.6.39
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
 == Description ==
 Simple and easy way to accept Password with persian numbers in your WordPress Login form.
-This plugin allows you to login with passwords that contain English and Persian/Arabic numbers.
+This plugin allows you to login with passwords that contain English and Persian numbers.
 
 for example:
 If you have user with 'abc۱۲۳۴۵۶' password, you can login with 'abc123456' and 'abc۱۲۳۴۵۶' password.

@@ -10,7 +10,7 @@
  *
  * Plugin Name:     Persian Password
  * Description:     Accept Password with persian numbers in your WordPress Login form.
- * Version:         1.0.0
+ * Version:         1.0.2
  * Author:          Mohammad Zarei
  * Author URI:      https://zarei.dev
  * License:         GPL-3.0+

@@ -24,6 +24,24 @@ if ( !defined( 'ABSPATH' ) ) {
 	die( 'We\'re sorry, but you can not directly access this file.' );
 }
 
+define( 'IS_DIGITS_ACTIVE', in_array('digits/digit.php', apply_filters('active_plugins', get_option('active_plugins'))));
+
+
+if ( IS_DIGITS_ACTIVE ) {
+
+    if ( !is_admin() ) {
+
+        // Add digits script
+        add_action( 'wp_enqueue_scripts' , function () {
+            wp_enqueue_script( 'persian-password-digits', plugin_dir_url( __FILE__ ) . 'assets/js/digits.js', array('jquery'),'1.1', true );
+        });
+        add_action( 'login_enqueue_scripts' , function () {
+            wp_enqueue_script( 'persian-password-digits', plugin_dir_url( __FILE__ ) . 'assets/js/digits.js', array('jquery'),'1.1', true );
+        });
+
+    }
+}
+
 add_filter( 'authenticate', 'wp_authenticate_persian_password', 30, 3 );
 
 function wp_authenticate_persian_password( $user, $email_or_username, $password ) {

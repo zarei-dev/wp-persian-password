@@ -1,7 +1,4 @@
 # Persian Password Plugin for WordPress #
-
-
-# Description #
 Simple and easy way to accept Password with persian numbers in your WordPress Login form.
 This plugin allows you to login with passwords that contain English and Persian numbers.
 

@@ -1,16 +1,4 @@
 # Persian Password Plugin for WordPress #
-Contributors: [zareidev](https://profiles.wordpress.org/zareidev/)
-
-Tags: Persian, login, register, password, farsi
-
-Requires at least: 5.6
-
-Tested up to: 6.0.1
-
-Requires PHP: 5.6.39
-
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-
 
 
 # Description #
@@ -27,15 +15,28 @@ This plugin is accept two types of passwords and this is a low security risk.
 
 This plugin has no configuration and is ready to use after installation.
 
-## Installation ##
-# Using The WordPress Dashboard #
+Contributors: [zareidev](https://profiles.wordpress.org/zareidev/)
+
+Tags: Persian, login, register, password, farsi
+
+Requires at least: 5.6
+
+Tested up to: 6.0.1
+
+Requires PHP: 5.6.39
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+# Installation #
+## Using The WordPress Dashboard ##
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Search for 'Persian Password'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
-# Uploading in WordPress Dashboard #
+## Uploading in WordPress Dashboard ##
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Navigate to the 'Upload' area

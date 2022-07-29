@@ -15,6 +15,8 @@ This plugin allows you to login with passwords that contain English and Persian 
 for example:
 If you have user with 'abc۱۲۳۴۵۶' password, you can login with 'abc123456' and 'abc۱۲۳۴۵۶' password.
 
+Integrated with: Digits plugin
+
 **SECURITY WARNING:**
 This plugin is accept two types of passwords and this is a low security risk.
 
@@ -39,3 +41,7 @@ This plugin has no configuration and is ready to use after installation.
 == Frequently Asked Questions ==
 = Old users can login without any problems? =
 Yes
+
+== Changelog ==
+= 1.0.5 - 2022-07-29 =
+* Add integration with the 'Digits' plugin

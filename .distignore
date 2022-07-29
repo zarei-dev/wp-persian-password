@@ -1,2 +1,5 @@
 .distignore
 readme.md
+.git
+.github
+.wordpress-org

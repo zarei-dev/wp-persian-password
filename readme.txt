@@ -18,7 +18,7 @@ If you have user with 'abc۱۲۳۴۵۶' password, you can login with 'abc123456'
 Integrated with: Digits plugin
 
 **SECURITY WARNING:**
-This plugin is accept two types of passwords and this is a low security risk.
+This plugin accepts two types of passwords, a low-security risk.
 
 This plugin has no configuration and is ready to use after installation.
 
